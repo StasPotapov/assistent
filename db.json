@@ -135,38 +135,6 @@
                             {
                                 "type": "detail_right_view",
                                 "detail": {
-                                    "text": "днем",
-                                    "typeface": "caption",
-                                    "text_color": "secondary",
-                                    "max_lines": 1
-                                },
-                                "info_and_icon": {
-                                    "info": {
-                                        "text": "+4°",
-                                        "typeface": "body1",
-                                        "text_color": "default",
-                                        "max_lines": 1
-                                    },
-                                    "icon": {
-                                        "address": {
-                                            "type": "url",
-                                            "url": "https://cs5-2.4pda.to/6380085.png"
-                                        },
-                                        "size": {
-                                            "width": "small",
-                                            "height": "small"
-                                        },
-                                        "margins": {
-                                            "left": "2x",
-                                            "right": "9x"
-                                        }
-                                    }
-                                },
-                                "detail_position": "bottom"
-                            },
-                            {
-                                "type": "detail_right_view",
-                                "detail": {
                                     "text": "вечером",
                                     "typeface": "caption",
                                     "text_color": "secondary",
@@ -175,38 +143,6 @@
                                 "info_and_icon": {
                                     "info": {
                                         "text": "+3°",
-                                        "typeface": "body1",
-                                        "text_color": "default",
-                                        "max_lines": 1
-                                    },
-                                    "icon": {
-                                        "address": {
-                                            "type": "url",
-                                            "url": "https://cs5-2.4pda.to/6380085.png"
-                                        },
-                                        "size": {
-                                            "width": "small",
-                                            "height": "small"
-                                        },
-                                        "margins": {
-                                            "left": "2x",
-                                            "right": "9x"
-                                        }
-                                    }
-                                },
-                                "detail_position": "bottom"
-                            },
-                            {
-                                "type": "detail_right_view",
-                                "detail": {
-                                    "text": "ночью",
-                                    "typeface": "caption",
-                                    "text_color": "secondary",
-                                    "max_lines": 1
-                                },
-                                "info_and_icon": {
-                                    "info": {
-                                        "text": "-2°",
                                         "typeface": "body1",
                                         "text_color": "default",
                                         "max_lines": 1
