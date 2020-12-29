@@ -3,132 +3,157 @@
     "type": "gallery_card",
     "items": [
       {
-        "type": "gallery_search_content_item",
+        "type": "media_gallery_item",
         "actions": [
-          {
-            "type": "deep_link",
-            "deep_link": "https://sport-marafon.ru/catalog/zimnyaya-obuv/"
-          }
+            {
+              "type": "deep_link",
+              "deep_link": "http://smartbox.okko.tv/?titleid=movie:df4bbd21-0a82-4693-907c-8ad9bd034684"
+            }
         ],
-        "width": "large",
         "image": {
-          "type": "url",
-          "url": "https://cs5-2.4pda.to/6380085.png"
-        },
-        "title_text": {
-          "text": "Теплая замняя обувь - магазин СПОРТ-МАРАФОН",
-          "typeface": "body2",
-          "text_color": "default",
-          "max_lines": 2
-        },
-        "link_text": {
-          "text": "sport-marafon.ru/catalog/zimnyaya-obuv",
-          "typeface": "footnote1",
-          "text_color": "brand",
-          "max_lines": 1,
-          "margins": {
-            "top": "2x",
-            "bottom": "2x"
-          }
-        },
-        "description_text": {
-          "text": "Времена валенок ушли, нынешний ассортимент зимней обуви куда богаче. Так что же предлагается в современных магазинах зимней обуви? Попробуем разобраться.",
-          "typeface": "footnote1",
-          "text_color": "secondary",
-          "max_lines": 4,
-          "margins": {
-            "top": "2x"
-          }
-        },
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        }
-      },
-      {
-        "type": "gallery_search_content_item",
-        "actions": [
-          {
-            "type": "deep_link",
-            "deep_link": "https://sport-marafon.ru/catalog/zimnyaya-obuv/"
-          }
-        ],
-        "width": "large",
-        "title_text": {
-          "text": "СПОРТ-МАРАФОН",
-          "typeface": "body2",
-          "text_color": "default",
-          "max_lines": 2
-        },
-        "link_text": {
-          "text": "sport-marafon.ru/catalog/zimnyaya-obuv",
-          "typeface": "footnote1",
-          "text_color": "brand",
-          "max_lines": 1,
-          "margins": {
-            "top": "2x",
-            "bottom": "2x"
-          }
-        },
-        "description_text": {
-          "text": "Времена валенок ушли, нынешний ассортимент зимней обуви куда богаче. Так что же предлагается в современных магазинах зимней обуви? Попробуем разобраться.",
-          "typeface": "footnote1",
-          "text_color": "secondary",
-          "max_lines": 4,
-          "margins": {
-            "top": "2x"
-          }
-        },
-        "paddings": {
-          "top": "10x",
-          "left": "8x",
-          "right": "8x",
-          "bottom": "10x"
-        }
-      },
-      {
-        "type": "gallery_more_button_item",
-        "bottom_text": {
-          "text": "Все результаты",
-          "typeface": "caption",
-          "text_color": "primary",
-          "max_lines": 1,
-          "margins": {
-            "top": "4x"
-          }
-        },
-        "icon": {
-          "tint_color": "solid_white",
-          "address": {
-            "type": "local",
-            "identificator": "ellipsis"
-          },
+          "url": "https://festagent.com/system/tilda/tild3562-6362-4762-b036-653363663832__a01ccf32943f670ef632.jpg",
           "size": {
             "width": "small",
-            "height": "small"
+            "aspect_ratio": 1.42
           }
         },
-        "actions": [
-          {
-            "type": "deep_link",
-            "deep_link": "https://sport-marafon.ru/catalog/obuv/"
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "2016, Драма/ЛГБТ",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
           }
-        ]
+        },
+        "top_text": {
+          "text": "Лунный свет",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/Pulp_Fiction.jpg/211px-Pulp_Fiction.jpg",
+          "size": {
+            "width": "small",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "18+ 1994 г, Криминальный фильм/Комедия",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Криминальное чтиво. Режисcерская версия.",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://s1.afisha.ru/mediastorage/15/12/70b14e2a3e3c4699bfaf05361215.jpg",
+          "size": {
+            "width": "small",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "2014, Научная фантастика/Приключения",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Интерстеллар",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://multsforkids.ru/data/uploads/multfilmy/smeshariki1.jpg",
+          "size": {
+            "width": "small",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "top_text": {
+          "text": "Смешарики",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://thumbs.dfs.ivi.ru/storage31/contents/8/e/010ea0147875e28b91ef1ff01cd042.jpg",
+          "size": {
+            "width": "small",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "2019 г. ‧ Комедия/Драма",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Однажды в Голливуде",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
       }
-    ],
-    "bottom_text": {
-      "text": "Результаты поиска bing",
-      "typeface": "caption",
-      "text_color": "secondary",
-      "max_lines": 1,
-      "margins": {
-        "top": "6x",
-        "left": "8x",
-        "bottom": "6x",
-        "right": "8x"
-      }
-    }
+    ]
   }
 }
