@@ -152,9 +152,10 @@
           "typeface": "footnote1",
           "text_color": "default",
           "max_lines": 2
-        },
+        }
+      },
         {
-        "type": "list_card",
+            "type": "list_card",
 		    "paddings": {
           "bottom": "8x",
           "top": "8x",
@@ -363,7 +364,6 @@
         }
         ]
 }
-      }
     ]
   }
 }
