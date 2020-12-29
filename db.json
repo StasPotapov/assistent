@@ -1,153 +1,181 @@
 {
-    "card": {
-      "type": "gallery_card",
-      "items": [
-        {
-          "type": "media_gallery_item",
-          "image": {
-            "url": "https://festagent.com/system/tilda/tild3562-6362-4762-b036-653363663832__a01ccf32943f670ef632.jpg",
-            "size": {
-              "width": "large",
-              "aspect_ratio": 1.42
-            }
-          },
-          "margins": {
-            "top": "4x",
-            "left": "6x",
-            "right": "6x",
-            "bottom": "5x"
-          },
-          "bottom_text": {
-            "text": "2016, Драма/ЛГБТ",
-            "typeface": "caption",
-            "text_color": "secondary",
-            "max_lines": 1,
-            "margins": {
-              "top": "2x"
-            }
-          },
-          "top_text": {
-            "text": "Лунный свет",
-            "typeface": "footnote1",
-            "text_color": "default",
-            "max_lines": 2
-          }
+  "items": [
+    {
+      "card": {
+        "type": "list_card",
+        "paddings": {
+          "top": "9x",
+          "bottom": "12x",
+          "left": "8x",
+          "right": "8x"
         },
-        {
-          "type": "media_gallery_item",
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/Pulp_Fiction.jpg/211px-Pulp_Fiction.jpg",
-            "size": {
-              "width": "large",
-              "aspect_ratio": 1.42
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Последние новости",
+              "typeface": "headline3",
+              "text_color": "default"
+            },
+            "paddings": {
+              "bottom": "2x"
             }
           },
-          "margins": {
-            "top": "4x",
-            "left": "6x",
-            "right": "6x",
-            "bottom": "5x"
-          },
-          "bottom_text": {
-            "text": "18+ 1994 г, Криминальный фильм/Комедия",
-            "typeface": "caption",
-            "text_color": "secondary",
-            "max_lines": 1,
-            "margins": {
-              "top": "2x"
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "ФСБ объявила о предотвращении теракта в Хабаровске",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
             }
           },
-          "top_text": {
-            "text": "Криминальное чтиво. Режисcерская версия.",
-            "typeface": "footnote1",
-            "text_color": "default",
-            "max_lines": 2
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "В Фонд борьбы с коррупцией пришли с обыском",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Собянин: у 60% жителей Москвы есть коллективный иммунитет к коронавирусу",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Сотрудник Сбербанка Руслан Гафаров объявил об увольнении после обвинений в домогательствах и изнасиловании",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x",
+              "bottom": "6x"
+            },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "texts": {
+                "title": {
+                  "text": "Канье Уэст прифотошопил себя на гору Рашмор к другим президентам США",
+                  "typeface": "footnote2",
+                  "text_color": "default",
+                  "max_lines": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "По данным Lenta.ru",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "https://lenta.ru"
+                }
+              ]
+            },
+            "paddings": {
+              "top": "6x"
+            }
           }
-        },
-        {
-          "type": "media_gallery_item",
-          "image": {
-            "url": "https://s1.afisha.ru/mediastorage/15/12/70b14e2a3e3c4699bfaf05361215.jpg",
-            "size": {
-              "width": "large",
-              "aspect_ratio": 1.42
-            }
-          },
-          "margins": {
-            "top": "4x",
-            "left": "6x",
-            "right": "6x",
-            "bottom": "5x"
-          },
-          "bottom_text": {
-            "text": "2014, Научная фантастика/Приключения",
-            "typeface": "caption",
-            "text_color": "secondary",
-            "max_lines": 1,
-            "margins": {
-              "top": "2x"
-            }
-          },
-          "top_text": {
-            "text": "Интерстеллар",
-            "typeface": "footnote1",
-            "text_color": "default",
-            "max_lines": 2
-          }
-        },
-        {
-          "type": "media_gallery_item",
-          "image": {
-            "url": "https://multsforkids.ru/data/uploads/multfilmy/smeshariki1.jpg",
-            "size": {
-              "width": "large",
-              "aspect_ratio": 1.42
-            }
-          },
-          "margins": {
-            "top": "4x",
-            "left": "6x",
-            "right": "6x",
-            "bottom": "5x"
-          },
-          "top_text": {
-            "text": "Смешарики",
-            "typeface": "footnote1",
-            "text_color": "default",
-            "max_lines": 2
-          }
-        },
-        {
-          "type": "media_gallery_item",
-          "image": {
-            "url": "https://thumbs.dfs.ivi.ru/storage31/contents/8/e/010ea0147875e28b91ef1ff01cd042.jpg",
-            "size": {
-              "width": "large",
-              "aspect_ratio": 1.42
-            }
-          },
-          "margins": {
-            "top": "4x",
-            "left": "6x",
-            "right": "6x",
-            "bottom": "5x"
-          },
-          "bottom_text": {
-            "text": "2019 г. ‧ Комедия/Драма",
-            "typeface": "caption",
-            "text_color": "secondary",
-            "max_lines": 1,
-            "margins": {
-              "top": "2x"
-            }
-          },
-          "top_text": {
-            "text": "Однажды в Голливуде",
-            "typeface": "footnote1",
-            "text_color": "default",
-            "max_lines": 2
-          }
-        }
-      ]
+        ]
+      }
     }
-  }
+  ]
+}
