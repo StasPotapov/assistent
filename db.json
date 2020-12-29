@@ -4,10 +4,16 @@
     "items": [
       {
         "type": "media_gallery_item",
+        "actions": [
+            {
+              "type": "deep_link",
+              "deep_link": "http://smartbox.okko.tv/?titleid=movie:df4bbd21-0a82-4693-907c-8ad9bd034684"
+            }
+        ],
         "image": {
           "url": "https://festagent.com/system/tilda/tild3562-6362-4762-b036-653363663832__a01ccf32943f670ef632.jpg",
           "size": {
-            "width": "medium",
+            "width": "small",
             "aspect_ratio": 1.42
           }
         },
@@ -38,7 +44,7 @@
         "image": {
           "url": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/Pulp_Fiction.jpg/211px-Pulp_Fiction.jpg",
           "size": {
-            "width": "medium",
+            "width": "small",
             "aspect_ratio": 1.42
           }
         },
@@ -69,7 +75,7 @@
         "image": {
           "url": "https://s1.afisha.ru/mediastorage/15/12/70b14e2a3e3c4699bfaf05361215.jpg",
           "size": {
-            "width": "medium",
+            "width": "small",
             "aspect_ratio": 1.42
           }
         },
@@ -100,7 +106,7 @@
         "image": {
           "url": "https://multsforkids.ru/data/uploads/multfilmy/smeshariki1.jpg",
           "size": {
-            "width": "medium",
+            "width": "small",
             "aspect_ratio": 1.42
           }
         },
@@ -122,7 +128,7 @@
         "image": {
           "url": "https://thumbs.dfs.ivi.ru/storage31/contents/8/e/010ea0147875e28b91ef1ff01cd042.jpg",
           "size": {
-            "width": "medium",
+            "width": "small",
             "aspect_ratio": 1.42
           }
         },
