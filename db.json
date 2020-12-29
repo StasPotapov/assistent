@@ -1,152 +1,153 @@
 {
-	"card": {
-		"type" : "list_card",
-		"cells" : [
-		{
-			"type": "text_cell_view",
-			"content": {
-				"text": "Санкт - Петербург",
-				"typeface": "headline3",
-				"text_color": "default"
-			}
-		},
-		{
-			"type": "weather_cell_view",
-			"content": [
-				{
-					"weekday": "Понедельник",
-					"date": "15 сентября",
-					"day": "+5°",
-					"night": "-5°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				},
-				{
-					"weekday": "Вторник",
-					"date": "16 сентября",
-					"day": "+23°",
-					"night": "+12°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				},
-				{
-					"weekday": "Среда",
-					"date": "17 сентября",
-					"day": "0°",
-					"night": "-23°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				},
-				{
-					"weekday": "Четверг",
-					"date": "18 сентября",
-					"day": "+13°",
-					"night": "-5°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				},
-				{
-					"weekday": "Пятница",
-					"date": "19 сентября",
-					"day": "+6°",
-					"night": "0°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				},
-				{
-					"weekday": "Суббота",
-					"date": "20 сентября",
-					"day": "+11°",
-					"night": "-11°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				},
-				{
-					"weekday": "Воскресенье",
-					"date": "21 сентября",
-					"day": "+50°",
-					"night": "-73°",
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						}
-					}
-				}
-			],
-			"paddings": {
-				"top": "8x"
-			}
-		},
-		{
-			"type": "text_cell_view",
-			"content": {
-				"text": "По данным Gismeteo",
-				"typeface": "footnote1",
-				"text_color": "secondary"
-			},
-			"paddings": {
-				"top": "10x"
-			}
-		}
-		],
-		"paddings": {
-			"top": "9x",
-			"right": "8x",
-			"bottom": "9x",
-			"left": "8x"
-		}
-	}
+  "card": {
+    "type": "gallery_card",
+    "items": [
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://festagent.com/system/tilda/tild3562-6362-4762-b036-653363663832__a01ccf32943f670ef632.jpg",
+          "size": {
+            "width": "medium",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "2016, Драма/ЛГБТ",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Лунный свет",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/ru/thumb/9/93/Pulp_Fiction.jpg/211px-Pulp_Fiction.jpg",
+          "size": {
+            "width": "medium",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "18+ 1994 г, Криминальный фильм/Комедия",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Криминальное чтиво. Режисcерская версия.",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://s1.afisha.ru/mediastorage/15/12/70b14e2a3e3c4699bfaf05361215.jpg",
+          "size": {
+            "width": "medium",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "2014, Научная фантастика/Приключения",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Интерстеллар",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://multsforkids.ru/data/uploads/multfilmy/smeshariki1.jpg",
+          "size": {
+            "width": "medium",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "top_text": {
+          "text": "Смешарики",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      },
+      {
+        "type": "media_gallery_item",
+        "image": {
+          "url": "https://thumbs.dfs.ivi.ru/storage31/contents/8/e/010ea0147875e28b91ef1ff01cd042.jpg",
+          "size": {
+            "width": "medium",
+            "aspect_ratio": 1.42
+          }
+        },
+        "margins": {
+          "top": "4x",
+          "left": "6x",
+          "right": "6x",
+          "bottom": "5x"
+        },
+        "bottom_text": {
+          "text": "2019 г. ‧ Комедия/Драма",
+          "typeface": "caption",
+          "text_color": "secondary",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "top_text": {
+          "text": "Однажды в Голливуде",
+          "typeface": "footnote1",
+          "text_color": "default",
+          "max_lines": 2
+        }
+      }
+    ]
+  }
 }
