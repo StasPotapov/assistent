@@ -1,213 +1,134 @@
 {
-	"card": {
-		"type": "list_card",
-		"paddings": {
-			"bottom": "8x",
-			"top": "8x",
-			"left": "8x",
-			"right": "8x"
-		},
-		"cells": [
-		{
-			"type": "text_cell_view",
-			"content": {
-				"text": "Сегодня, в Вене, Австрия",
-				"typeface": "headline3",
-				"text_color": "default"
-			}
-		},
-		{
-			"type": "details_cell_view",
-			"paddings": {
-				"top": "6x"
-			},
-			"details": [
-			{
-				"type": "detail_right_view",
-				"info_and_icon": {
-					"info": {
-						"text": "+20°",
-						"typeface": "headline1",
-						"text_color": "default",
-						"max_lines": 1
-					},
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "medium",
-							"height": "medium"
-						},
-						"margins": {
-							"left": "4x"
-						}
-					}
-				}
-			}
-			]
-		},
-		{
-			"type": "text_cell_view",
-			"content": {
-				"text": "Ощущается как +3, пасмурно, небольшой дождь",
-				"typeface": "footnote1",
-				"text_color": "secondary",
-				"max_lines": 0
-			},
-			"paddings": {
-				"top": "2x"
-			}
-		},
-		{
-			"type": "details_cell_view",
-			"paddings": {
-				"top": "10x"
-			},
-			"details": [
-			{
-				"type": "detail_right_view",
-				"detail": {
-					"text": "утром",
-					"typeface": "caption",
-					"text_color": "secondary",
-					"max_lines": 1
-				},
-				"info_and_icon": {
-					"info": {
-						"text": "+16°",
-						"typeface": "body1",
-						"text_color": "default",
-						"max_lines": 1
-					},
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						},
-						"margins": {
-							"left": "2x",
-							"right": "9x"
-						}
-					}
-				},
-				"detail_position": "bottom"
-			},
-			{
-				"type": "detail_right_view",
-				"detail": {
-					"text": "днем",
-					"typeface": "caption",
-					"text_color": "secondary",
-					"max_lines": 1
-				},
-				"info_and_icon": {
-					"info": {
-						"text": "+4°",
-						"typeface": "body1",
-						"text_color": "default",
-						"max_lines": 1
-					},
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						},
-						"margins": {
-							"left": "2x",
-							"right": "9x"
-						}
-					}
-				},
-				"detail_position": "bottom"
-			},
-			{
-				"type": "detail_right_view",
-				"detail": {
-					"text": "вечером",
-					"typeface": "caption",
-					"text_color": "secondary",
-					"max_lines": 1
-				},
-				"info_and_icon": {
-					"info": {
-						"text": "+3°",
-						"typeface": "body1",
-						"text_color": "default",
-						"max_lines": 1
-					},
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						},
-						"margins": {
-							"left": "2x",
-							"right": "9x"
-						}
-					}
-				},
-				"detail_position": "bottom"
-			},
-			{
-				"type": "detail_right_view",
-				"detail": {
-					"text": "ночью",
-					"typeface": "caption",
-					"text_color": "secondary",
-					"max_lines": 1
-				},
-				"info_and_icon": {
-					"info": {
-						"text": "-2°",
-						"typeface": "body1",
-						"text_color": "default",
-						"max_lines": 1
-					},
-					"icon": {
-						"address": {
-							"type": "url",
-							"url": "https://cs5-2.4pda.to/6380085.png"
-						},
-						"size": {
-							"width": "small",
-							"height": "small"
-						},
-						"margins": {
-							"left": "2x",
-							"right": "9x"
-						}
-					}
-				},
-				"detail_position": "bottom"
-			}
-			]
-		},
-		{
-			"type": "text_cell_view",
-			"content": {
-				"text": "По данным Gismeteo",
-				"typeface": "footnote1",
-				"text_color": "secondary"
-			},
-			"paddings": {
-				"top": "10x"
-			}
-		}
-		]
-	}
+  "card": {
+    "type": "gallery_card",
+    "items": [
+      {
+        "type": "gallery_search_content_item",
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "https://sport-marafon.ru/catalog/zimnyaya-obuv/"
+          }
+        ],
+        "width": "large",
+        "image": {
+          "type": "url",
+          "url": "https://cs5-2.4pda.to/6380085.png"
+        },
+        "title_text": {
+          "text": "Теплая замняя обувь - магазин СПОРТ-МАРАФОН",
+          "typeface": "body2",
+          "text_color": "default",
+          "max_lines": 2
+        },
+        "link_text": {
+          "text": "sport-marafon.ru/catalog/zimnyaya-obuv",
+          "typeface": "footnote1",
+          "text_color": "brand",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x",
+            "bottom": "2x"
+          }
+        },
+        "description_text": {
+          "text": "Времена валенок ушли, нынешний ассортимент зимней обуви куда богаче. Так что же предлагается в современных магазинах зимней обуви? Попробуем разобраться.",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "max_lines": 4,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        }
+      },
+      {
+        "type": "gallery_search_content_item",
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "https://sport-marafon.ru/catalog/zimnyaya-obuv/"
+          }
+        ],
+        "width": "large",
+        "title_text": {
+          "text": "СПОРТ-МАРАФОН",
+          "typeface": "body2",
+          "text_color": "default",
+          "max_lines": 2
+        },
+        "link_text": {
+          "text": "sport-marafon.ru/catalog/zimnyaya-obuv",
+          "typeface": "footnote1",
+          "text_color": "brand",
+          "max_lines": 1,
+          "margins": {
+            "top": "2x",
+            "bottom": "2x"
+          }
+        },
+        "description_text": {
+          "text": "Времена валенок ушли, нынешний ассортимент зимней обуви куда богаче. Так что же предлагается в современных магазинах зимней обуви? Попробуем разобраться.",
+          "typeface": "footnote1",
+          "text_color": "secondary",
+          "max_lines": 4,
+          "margins": {
+            "top": "2x"
+          }
+        },
+        "paddings": {
+          "top": "10x",
+          "left": "8x",
+          "right": "8x",
+          "bottom": "10x"
+        }
+      },
+      {
+        "type": "gallery_more_button_item",
+        "bottom_text": {
+          "text": "Все результаты",
+          "typeface": "caption",
+          "text_color": "primary",
+          "max_lines": 1,
+          "margins": {
+            "top": "4x"
+          }
+        },
+        "icon": {
+          "tint_color": "solid_white",
+          "address": {
+            "type": "local",
+            "identificator": "ellipsis"
+          },
+          "size": {
+            "width": "small",
+            "height": "small"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "https://sport-marafon.ru/catalog/obuv/"
+          }
+        ]
+      }
+    ],
+    "bottom_text": {
+      "text": "Результаты поиска bing",
+      "typeface": "caption",
+      "text_color": "secondary",
+      "max_lines": 1,
+      "margins": {
+        "top": "6x",
+        "left": "8x",
+        "bottom": "6x",
+        "right": "8x"
+      }
+    }
+  }
 }
-
