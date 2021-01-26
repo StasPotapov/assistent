@@ -36,7 +36,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3x"
+              "top": "3x",
+              "bottom": "3x"
             },
             "actions": [
               {
@@ -68,7 +69,12 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3x"
+              "top": "3x",
+              "right": "10x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
             },
             "actions": [
               {
@@ -117,8 +123,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "3x",
+              "bottom": "3x"
             },
             "actions": [
               {
@@ -150,8 +156,11 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "3x"
+            },
+            "divider": {
+              "style": "default",
+              "size": "d1"
             },
             "actions": [
               {
