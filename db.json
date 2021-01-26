@@ -74,7 +74,7 @@
             "paddings": {
               "top": "3x",
               "bottom": "6x",
-              "right": "10x"
+              "right": "12x"
             },
             "divider": {
               "style": "default",
@@ -162,7 +162,7 @@
             "paddings": {
               "top": "3x",
               "bottom": "6x",
-              "right": "10x"
+              "right": "12x"
             },
             "divider": {
               "style": "default",
