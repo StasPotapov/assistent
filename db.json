@@ -22,7 +22,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "парикмахерская",
+                  "text": "Парикмахерская",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 1
@@ -36,8 +36,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3x",
-              "bottom": "3x"
+              "top": "4x",
+              "bottom": "4x"
             },
             "actions": [
               {
@@ -110,7 +110,7 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "ювелирный салон",
+                  "text": "Ювелирный салон",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 1
@@ -124,8 +124,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3x",
-              "bottom": "3x"
+              "top": "4x",
+              "bottom": "4x"
             },
             "actions": [
               {
