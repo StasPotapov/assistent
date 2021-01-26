@@ -39,8 +39,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3x",
-              "bottom": "3x"
+              "top": "2x",
+              "bottom": "2x"
             },
             "actions": [
               {
@@ -127,8 +127,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3,5x",
-              "bottom": "3,5x"
+              "top": "2x",
+              "bottom": "2x"
             },
             "actions": [
               {
