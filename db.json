@@ -36,8 +36,7 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "3x"
             },
             "actions": [
               {
@@ -69,8 +68,7 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "3x"
             },
             "actions": [
               {
@@ -82,10 +80,10 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "ул. Большая Ордынка, 17 • 2,3 км",
+                  "text": "ул. Большая Ордынка, 17 • 2,3 км • м. ЦСКА • Открыто до 22:00",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "max_lines": 1
+                  "max_lines": 0
                 }
               }
             }
@@ -93,33 +91,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "6x",
-              "bottom": "6x"
+              "top": "6x"
             },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "• м. ЦСКА • Открыто до 22:00",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
             "actions": [
               {
                 "type": "deep_link",
@@ -190,38 +163,10 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Нижний Кисловский переулок, 6с2, 17 • 1,3 км ",
+                  "text": "Нижний Кисловский переулок, 6с2, 17 • 1,3 км • м. Боровицкая • Закрыто до завтра ",
                   "typeface": "footnote1",
                   "text_color": "secondary",
-                  "max_lines": 1
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "• м. Боровицкая • Закрыто до завтра",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 1
+                  "max_lines": 0
                 }
               }
             }
@@ -231,7 +176,7 @@
             "content": {
               "text": "Результаты в 2ГИС",
               "typeface": "footnote1",
-              "text_color": "link",
+              "text_color": "tertiary",
               "actions": [
                 {
                   "type": "deep_link",
