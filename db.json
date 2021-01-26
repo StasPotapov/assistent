@@ -11,25 +11,10 @@
         },
         "cells": [
           {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Последние новости",
-              "typeface": "headline3",
-              "text_color": "default"
-            },
-            "paddings": {
-              "bottom": "2x"
-            }
-          },
-          {
             "type": "left_right_cell_view",
             "paddings": {
               "top": "6x",
               "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
             },
             "actions": [
               {
@@ -41,12 +26,15 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "ФСБ объявила о предотвращении теракта в Хабаровске",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
+                  "text": "парикмахерская",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
                 }
               }
+            },
+            "right": {
+              "type": "disclosure_right_view"
             }
           },
           {
@@ -54,10 +42,6 @@
             "paddings": {
               "top": "6x",
               "bottom": "6x"
-            },
-            "divider": {
-              "style": "default",
-              "size": "d1"
             },
             "actions": [
               {
@@ -69,39 +53,20 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "В Фонд борьбы с коррупцией пришли с обыском",
+                  "text": "Fjord",
                   "typeface": "footnote2",
                   "text_color": "default",
-                  "max_lines": 0
+                  "max_lines": 1
                 }
               }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
             },
-            "divider": {
-              "style": "default",
-              "size": "d1"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Собянин: у 60% жителей Москвы есть коллективный иммунитет к коронавирусу",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
+            "right": {
+              "type": "detail_right_view",
+              "detail": {
+                "text": "★4,3",
+                "typeface": "footnote2",
+                "text_color": "default",
+                "max_lines": 1
               }
             }
           },
@@ -125,34 +90,10 @@
               "type": "simple_left_view",
               "texts": {
                 "title": {
-                  "text": "Сотрудник Сбербанка Руслан Гафаров объявил об увольнении после обвинений в домогательствах и изнасиловании",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "left_right_cell_view",
-            "paddings": {
-              "top": "6x",
-              "bottom": "6x"
-            },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
-            "left": {
-              "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "Канье Уэст прифотошопил себя на гору Рашмор к другим президентам США",
-                  "typeface": "footnote2",
-                  "text_color": "default",
-                  "max_lines": 0
+                  "text": "ул. Большая Ордынка, 17 • 2,3 км • м. ЦСКА • Открыто до 22:00",
+                  "typeface": "footnote1",
+                  "text_color": "secondary",
+                  "max_lines": 1
                 }
               }
             }
