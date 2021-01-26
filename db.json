@@ -70,7 +70,8 @@
             "type": "left_right_cell_view",
             "paddings": {
               "top": "3x",
-              "right": "10x"
+              "bottom": "6x",
+              "right": "8x"
             },
             "divider": {
               "style": "default",
@@ -156,7 +157,9 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3x"
+              "top": "3x",
+              "bottom": "6x",
+              "right": "8x"
             },
             "divider": {
               "style": "default",
@@ -185,7 +188,7 @@
             "content": {
               "text": "Результаты в 2ГИС",
               "typeface": "footnote1",
-              "text_color": "tertiary",
+              "text_color": "link",
               "actions": [
                 {
                   "type": "deep_link",
