@@ -39,8 +39,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "3,5x",
-              "bottom": "3,5x"
+              "top": "3x",
+              "bottom": "3x"
             },
             "actions": [
               {
@@ -73,7 +73,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "top": "3x",
-              "bottom": "6,5x",
+              "bottom": "6x",
               "right": "10x"
             },
             "divider": {
@@ -161,7 +161,7 @@
             "type": "left_right_cell_view",
             "paddings": {
               "top": "3x",
-              "bottom": "6,5x",
+              "bottom": "6x",
               "right": "10x"
             },
             "divider": {
