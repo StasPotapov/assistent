@@ -62,7 +62,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "★4,3",
+                "text": "★ 4,3",
                 "typeface": "footnote2",
                 "text_color": "default",
                 "max_lines": 1
@@ -73,8 +73,8 @@
             "type": "left_right_cell_view",
             "paddings": {
               "top": "3x",
-              "bottom": "6x",
-              "right": "9x"
+              "bottom": "6,5x",
+              "right": "10x"
             },
             "divider": {
               "style": "default",
@@ -150,7 +150,7 @@
             "right": {
               "type": "detail_right_view",
               "detail": {
-                "text": "★3,9",
+                "text": "★ 3,9",
                 "typeface": "footnote2",
                 "text_color": "default",
                 "max_lines": 1
@@ -161,8 +161,8 @@
             "type": "left_right_cell_view",
             "paddings": {
               "top": "3x",
-              "bottom": "6x",
-              "right": "9x"
+              "bottom": "6,5x",
+              "right": "10x"
             },
             "divider": {
               "style": "default",
