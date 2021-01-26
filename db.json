@@ -4,7 +4,7 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "9x",
+          "top": "3x",
           "bottom": "12x",
           "left": "8x",
           "right": "8x"
@@ -12,6 +12,9 @@
         "cells": [
           {
             "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x"
+            },
             "actions": [
               {
                 "type": "deep_link",
@@ -36,8 +39,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "4x",
-              "bottom": "4x"
+              "top": "3,5x",
+              "bottom": "3,5x"
             },
             "actions": [
               {
@@ -71,7 +74,7 @@
             "paddings": {
               "top": "3x",
               "bottom": "6x",
-              "right": "8x"
+              "right": "9x"
             },
             "divider": {
               "style": "default",
@@ -124,8 +127,8 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "4x",
-              "bottom": "4x"
+              "top": "3,5x",
+              "bottom": "3,5x"
             },
             "actions": [
               {
@@ -159,7 +162,7 @@
             "paddings": {
               "top": "3x",
               "bottom": "6x",
-              "right": "8x"
+              "right": "9x"
             },
             "divider": {
               "style": "default",
