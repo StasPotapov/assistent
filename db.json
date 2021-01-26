@@ -53,7 +53,7 @@
               "texts": {
                 "title": {
                   "text": "Fjord",
-                  "typeface": "footnote2",
+                  "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 }
@@ -63,7 +63,7 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "★ 4,3",
-                "typeface": "footnote2",
+                "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 1
               }
@@ -141,7 +141,7 @@
               "texts": {
                 "title": {
                   "text": "Fjord",
-                  "typeface": "footnote2",
+                  "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 }
@@ -151,7 +151,7 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "★ 3,9",
-                "typeface": "footnote2",
+                "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 1
               }
@@ -229,7 +229,7 @@
               "texts": {
                 "title": {
                   "text": "Fjord",
-                  "typeface": "footnote2",
+                  "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 }
@@ -239,7 +239,7 @@
               "type": "detail_right_view",
               "detail": {
                 "text": "★ 1,2",
-                "typeface": "footnote2",
+                "typeface": "body1",
                 "text_color": "default",
                 "max_lines": 1
               }
@@ -278,7 +278,7 @@
             "type": "text_cell_view",
             "content": {
               "text": "Результаты в 2ГИС",
-              "typeface": "footnote1",
+              "typeface": "body1",
               "text_color": "brand",
               "actions": [
                 {
