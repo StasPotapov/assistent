@@ -78,10 +78,13 @@
               {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": " • 1,2 км",
+                  "text": "• 1,2 км",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 1
+                },
+                "margins": {
+                  "left": "2x"
                 }
               }
             ]
@@ -144,10 +147,13 @@
               {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": " • 1,4 км",
+                  "text": "• 1,4 км",
                   "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 1
+                },
+                "margins": {
+                  "left": "2x"
                 }
               }
             ]
