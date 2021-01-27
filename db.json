@@ -42,121 +42,88 @@
             }
           },
           {
-            "type": "details_cell_view",
-            "paddings": {
-              "top": "10x"
-            },
-            "details": [
-              {
-                "type": "detail_right_view",
-                "info_and_icon": {
-                  "icon": {
-                    "address": {
-                      "type": "url",
-                      "url": "https://sberdevices2.s3pd01.sbercloud.ru/smartmarket-smide-prod/1267/1268/pWeIGuDTyJ1kfmMt.png"
-                    },
-                    "size": {
-                      "width": "small",
-                      "height": "small"
-                    },
-                    "margins": {
-                      "left": "2x",
-                      "right": "8x"
-                    }
-                  }
-                }
-              },
-              {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "7 минут",
-                  "typeface": "body1",
-                  "text_color": "default",
-                  "max_lines": 1
-                }
-              },
-              {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "• 1,2 км",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 1
-                },
-                "margins": {
-                  "left": "4x"
-                }
-              }
-            ]
-          },
-          {
             "type": "left_right_cell_view",
             "paddings": {
-              "bottom": "2x"
+              "top": "6x"
             },
+            "actions": [
+              {
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
             "divider": {
               "style": "default",
               "size": "d1"
             },
             "left": {
               "type": "simple_left_view",
-              "texts": {
-                "title": {
-                  "text": "",
-                  "typeface": "footnote1",
-                  "text_color": "secondary",
-                  "max_lines": 0
-                }
-              }
-            }
-          },
-          {
-            "type": "details_cell_view",
-            "paddings": {
-              "top": "10x"
-            },
-            "details": [
-              {
-                "type": "detail_right_view",
-                "info_and_icon": {
-                  "icon": {
-                    "address": {
-                      "type": "url",
-                      "url": "https://sberdevices2.s3pd01.sbercloud.ru/smartmarket-smide-prod/1267/1268/ufL3O6NNyzQhOu0S.png"
-                    },
-                    "size": {
-                      "width": "small",
-                      "height": "small"
-                    },
-                    "margins": {
-                      "left": "2x",
-                      "right": "8x"
-                    }
-                  }
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://sberdevices2.s3pd01.sbercloud.ru/smartmarket-smide-prod/1267/1268/pWeIGuDTyJ1kfmMt.png"
+                },
+                "size": {
+                  "width": "small",
+                  "height": "small"
+                },
+                "margins": {
+                  "left": "2x",
+                  "right": "8x"
                 }
               },
-              {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "15 минут",
+              "texts": {
+                "title": {
+                  "text": "7 минут • 1,2 км",
                   "typeface": "body1",
                   "text_color": "default",
                   "max_lines": 1
                 }
-              },
+              }
+            },
+            "right": {
+              "type": "disclosure_right_view"
+            }
+          },
+          {
+            "type": "left_right_cell_view",
+            "paddings": {
+              "top": "6x"
+            },
+            "actions": [
               {
-                "type": "detail_right_view",
-                "detail": {
-                  "text": "• 1,4 км",
-                  "typeface": "body1",
-                  "text_color": "secondary",
-                  "max_lines": 1
+                "type": "deep_link",
+                "deep_link": "https://ria.ru/location_Moskva/"
+              }
+            ],
+            "left": {
+              "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://sberdevices2.s3pd01.sbercloud.ru/smartmarket-smide-prod/1267/1268/ufL3O6NNyzQhOu0S.png"
+                },
+                "size": {
+                  "width": "small",
+                  "height": "small"
                 },
                 "margins": {
-                  "left": "4x"
+                  "left": "2x",
+                  "right": "8x"
+                }
+              },
+              "texts": {
+                "title": {
+                  "text": "15 минут • 1,4 км",
+                  "typeface": "body1",
+                  "text_color": "default",
+                  "max_lines": 1
                 }
               }
-            ]
+            },
+            "right": {
+              "type": "disclosure_right_view"
+            }
           }
         ]
       }
