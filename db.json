@@ -5,7 +5,7 @@
         "type": "list_card",
         "paddings": {
           "top": "2x",
-          "bottom": "12x",
+          "bottom": "6x",
           "left": "8x",
           "right": "8x"
         },
