@@ -61,7 +61,7 @@
                     },
                     "margins": {
                       "left": "2x",
-                      "right": "9x"
+                      "right": "8x"
                     }
                   }
                 }
@@ -84,7 +84,7 @@
                   "max_lines": 1
                 },
                 "margins": {
-                  "left": "2x"
+                  "left": "4x"
                 }
               }
             ]
@@ -130,7 +130,7 @@
                     },
                     "margins": {
                       "left": "2x",
-                      "right": "9x"
+                      "right": "8x"
                     }
                   }
                 }
@@ -153,7 +153,7 @@
                   "max_lines": 1
                 },
                 "margins": {
-                  "left": "2x"
+                  "left": "4x"
                 }
               }
             ]
