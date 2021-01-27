@@ -89,7 +89,6 @@
           {
             "type": "left_right_cell_view",
             "paddings": {
-              "top": "2x",
               "bottom": "2x"
             },
             "divider": {
