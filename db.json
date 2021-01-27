@@ -4,7 +4,7 @@
       "card": {
         "type": "list_card",
         "paddings": {
-          "top": "3x",
+          "top": "2x",
           "bottom": "12x",
           "left": "8x",
           "right": "8x"
@@ -28,7 +28,7 @@
                 },
                 "margins": {
                   "left": "2x",
-                  "right": "9x"
+                  "right": "2x"
                 }
               },
               "texts": {
