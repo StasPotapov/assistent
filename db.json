@@ -15,25 +15,30 @@
             "paddings": {
               "top": "6x"
             },
-            "actions": [
-              {
-                "type": "deep_link",
-                "deep_link": "https://ria.ru/location_Moskva/"
-              }
-            ],
             "left": {
               "type": "simple_left_view",
+              "icon": {
+                "address": {
+                  "type": "url",
+                  "url": "https://cs5-2.4pda.to/6380085.png"
+                },
+                "size": {
+                  "width": "small",
+                  "height": "small"
+                },
+                "margins": {
+                  "left": "2x",
+                  "right": "9x"
+                }
+              },
               "texts": {
                 "title": {
-                  "text": "Парикмахерская",
+                  "text": "2ГИС",
                   "typeface": "footnote1",
                   "text_color": "secondary",
                   "max_lines": 1
                 }
               }
-            },
-            "right": {
-              "type": "disclosure_right_view"
             }
           },
           {
@@ -73,8 +78,8 @@
               {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "• 1,2 км",
-                  "typeface": "footnote1",
+                  "text": " • 1,2 км",
+                  "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 1
                 }
@@ -140,8 +145,8 @@
               {
                 "type": "detail_right_view",
                 "detail": {
-                  "text": "• 1,4 км",
-                  "typeface": "footnote1",
+                  "text": " • 1,4 км",
+                  "typeface": "body1",
                   "text_color": "secondary",
                   "max_lines": 1
                 }
